@@ -152,6 +152,10 @@
   
 
 }
+.footer-section{
+  background-image: url(/assets/footer-bg.png);
+  height: 415px;
+}
 
 .add-footer img{
 border-color: rgb(4, 130, 241);
