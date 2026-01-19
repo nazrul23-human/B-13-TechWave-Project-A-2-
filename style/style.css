@@ -130,8 +130,34 @@
 } */
 
 .Featured-Episodes{
+  height: 540px;
   display: flex;
   margin: 30px 200px;
   margin-bottom: 120px;
+  background-color: aqua;
 
+}
+.Host{
+  display: flex;
+  gap:20px;
+  align-items: center;
+  height: 380px;
+  margin: 30px 200px;
+}
+.media-img{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  margin-top: 32px;
+  
+
+}
+
+.add-footer img{
+border-color: rgb(4, 130, 241);
+border-radius: 30px;
+}
+.footer-section>p{
+  text-align: center;
+  margin: 32px 200px;
 }
