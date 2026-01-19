@@ -33,6 +33,9 @@
    -webkit-text-fill-color: transparent;
    background-repeat: no-repeat;
 }
+.side-bar{
+  display: none;
+}
   
  
 .nav-2nd{
