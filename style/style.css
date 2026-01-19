@@ -41,7 +41,7 @@
 
  /* ------Hero-container------ */
  .hero-container{
-  background-image: url(/assets/hero-bg.png);
+  background-image: url(../assets/hero-bg.png);
   height: 760px;
  }
  .hero-circle{
@@ -155,7 +155,7 @@
 
 }
 .footer-section{
-  background-image: url(/assets/footer-bg.png);
+  background-image: url(../assets/footer-bg.png);
   height: 415px;
 }
 
