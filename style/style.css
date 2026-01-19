@@ -128,3 +128,10 @@
   grid-column: 7/ span 8;
 
 } */
+
+.Featured-Episodes{
+  display: flex;
+  margin: 30px 200px;
+  margin-bottom: 120px;
+
+}
