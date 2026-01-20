@@ -34,7 +34,7 @@
    -webkit-text-fill-color: transparent;
    background-repeat: no-repeat;
 }
-
+/* ----side bar---- */
 .side-bar{
   display: none;
 }
@@ -63,13 +63,13 @@
   justify-content:center;
   align-items: center; 
   padding: 100px 1px 100px 210px;
-  /* flex-direction: column;  */
   background-image: url(../assets/hero-bg.png);  
 
  }
  
 
  .hero-circle>h1{
+  text-align: center;
   font-size: 40px;
   font-style: bold;
   
@@ -211,7 +211,6 @@
 
   .H1{
     text-align: center;
-
   }
 
  .Featured-Episodes{
@@ -242,17 +241,38 @@
  }
  .img1, .img2, .img3 {
   text-align: left;
+  color: #00ff88;
  }
  
+/* ----Host par---- */
 
-
- 
+ h1{
+  text-align:center ;
+ }
 .Host{
+  max-width: 1200px;
   display: flex;
   gap:20px;
+  padding: 20px;
   align-items: center;
-  height: 380px;
   margin: 30px 200px;
+  border-radius: 25px;
+  background-color: rgba(53, 17, 101, 0.4);
+}
+
+ .host-icon{
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  gap: 30px;
+
+}
+.alex>p{
+  color: rgba(255, 255, 255, 0.527);
+  font-size: 16px;
+  margin-top: 15px;
+
 }
 
 /* ----footer-Part----- */
