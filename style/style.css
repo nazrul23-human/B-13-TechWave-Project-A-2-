@@ -201,7 +201,7 @@
 
  }
   .p1,.p2,.p3,.p4,.p5{
-  color: rgba(255, 255, 255, 0.603);
+  color: rgba(255, 255, 255, 0.527);
   font-size: 16px;
   
 
@@ -209,14 +209,44 @@
  
  /* -----Episodes-Pard------ */
 
+  .H1{
+    text-align: center;
+
+  }
+
  .Featured-Episodes{
-  height: 540px;
+  max-width: 1200;
   display: flex;
-  margin: 30px 200px;
-  margin-bottom: 120px;
+  margin: 30px 200px; 
+  gap: 30px;
+  padding: 25px;
+  border-radius: 20px;
   
+ }
+ .Episode-1, .Episode-2, .Episode-3{
+  width: 380px;
+  height:440px ;
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 25px;
+  text-align: center;
+ }
+ .Episode-1>p, .Episode-2>p, .Episode-3>p {
+  color: rgba(255, 255, 255, 0.527);
+  font-size: 16px;
+  margin-top: 15px;
+  
+ }
+ .Episode-1>h3, .Episode-2>h3, .Episode-3>h3 {
+  margin-top: 25px;
 
  }
+ .img1, .img2, .img3 {
+  text-align: left;
+ }
+ 
+
+
+ 
 .Host{
   display: flex;
   gap:20px;
